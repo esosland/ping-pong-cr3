@@ -17,7 +17,7 @@ _This is a simple web app that will take a number and output a range of numbers 
 
 ### Setup/Installation Requirements
 
-_Download the files and open the index.html in any web browser. Or click on this webpage to open directly:_
+_Download the files and open the index.html in any web browser. Or click on this webpage to open directly: http://esosland.github.io/ping-pong-cr3/_
 
 ### Known Bugs
 
