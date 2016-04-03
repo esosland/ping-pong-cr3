@@ -6,17 +6,17 @@ function countTo (input) {
 }
 
 function insertPingPong (number) {
-  var message = "";
+  var result = "";
   if (number % 3 === 0) {
-    message = message.concat("ping");
+    result = result.concat("ping");
   }
   if (number % 5 === 0) {
-    message = message.concat("pong");
+    result = result.concat("pong");
   }
-  if (!message) {
-    message = number.toString();
+  if (!result) {
+    result = number.toString();
   }
-  return message;
+  return result;
   }
 
 
@@ -30,5 +30,5 @@ $(document).ready(function() {
     var inputNumber = parseInt($("form #number").val());
     countTo(inputNumber);
 
-  })
+  });
 });

@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
     <title>Ping Pong</title>
   </head>
   <body>
-    <h1>Let's Play!</h1>
-    <h2><strong>Rules:</strong></h2>
-    <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-      <ol>
-        <li>Numbers divisible by 3 become "ping"</li>
-        <li>Numbers divisible by 5 become "pong"</li>
-        <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-      </ol>
-    <form>
-      <label for="number">Enter your number here:</label>
-      <input id="number" type="number" min="1" step="1">
-      <button type="submit" name="button">Ping Pong!</button>
-    </form>
-    <ul class="output">
+    <div class="header container">
+      <h1><strong>Ping-Pong</strong></h1>
+    </div>
 
-    </ul>
+    <div class="row">
+      <div class="col-xs-3">
+        <div class="sidebar">
+          <h3><strong>About Ping Pong</strong></h3>
+          <h4>Created by:</h4>
+          <h5>Elissa Sosland</h5>
+          <h4>Github Username/URL:</h4>
+          <h5>esosland</h5>
+          <h4>Level 1 Test for:</h4>
+          <h5>Intro to Programming</h5>
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <div class="body">
+          <h1>Let's Play!</h1>
+          <h2><strong>Rules:</strong></h2>
+          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+            <ol>
+              <li>Numbers divisible by 3 become "ping"</li>
+              <li>Numbers divisible by 5 become "pong"</li>
+              <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+            </ol>
+            <form>
+              <label for="number">Enter your number here:</label>
+              <input id="number" type="number" min="1" step="1">
+              <button type="submit" name="button">Ping Pong!</button>
+            </form>
+          <ul class="output"></ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

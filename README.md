@@ -17,7 +17,7 @@ _This is a simple web app that will take a number and output a range of numbers 
 
 ### Setup/Installation Requirements
 
-_Download the files and open the index.html in any web browser. Or click on this webpage to open directly: _
+_Download the files and open the index.html in any web browser. Or click on this webpage to open directly:_
 
 ### Known Bugs
 
@@ -25,11 +25,11 @@ _No known bugs._
 
 ### Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code._
 
 ### Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out._
 
 ### License
 
